@@ -1,0 +1,79 @@
+title {
+  position: absolute;
+  left: 300px:
+}
+h1{
+   color: #DAA520;
+   padding: 2px 3px black;
+   border: 3px solid white;
+   border-radius: 15px;
+   text-align: center;
+}
+h1:hover {
+  background: white;
+  border: 2px solid black;
+  color: black
+}
+h2 {
+    font-style: italic;
+    font-family: fantasy;
+}
+  body {
+    background-color: #DCDCDC;
+  }
+  p{
+    display:list-item;
+    font-size: 18px;
+  }
+  strong {
+    border: 2px;
+    padding-left: 2px;
+    font-style: italic;
+    font-size: 19px;
+  }
+
+
+
+#headermenu {
+height: -45;
+border-bottom: 0px;
+padding-left: auto;
+padding-right: auto;
+width: 100%;
+}
+
+.searchbox {
+  position: absolute;
+  left: 900px;
+  top: 70px;
+  margin: auto;
+}
+#search input [type="text"] {
+  background: #F0E68C;
+  outline: none;
+  border: none;
+  font: bold 12px Arial, helvetica, sans-serif;
+  width: 35px;
+  padding: 6px 15px 6px 35px;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.75 ease 0s;
+  transition: all 0.7s ease 0s;
+}
+#search input [type="text"]:focus {
+  background: #F0E68C;
+  color: #6A6F75;
+  width: 30px;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0px rgba(0, 0, 0, 0.9) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0px rgba(0, 0, 0, 0.9) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0px rgba(0, 0, 0, 0.9) inset;
+}
+#button {
+  color: black;
+background-color: #F0E68C;
+}
